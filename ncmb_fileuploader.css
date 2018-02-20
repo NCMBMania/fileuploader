@@ -1,0 +1,10 @@
+#drag-drop-area {
+  border: dotted 3px grey;
+  text-align: center;
+  background: #eee;
+}
+
+#drag-drop-area.dragover {
+  border: dotted 3px #f44 !important;
+  background: #fee !important;
+}
