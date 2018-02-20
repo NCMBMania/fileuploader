@@ -4,7 +4,12 @@
 
 ## 読み込み
 
-JavaScript、CSSをそれぞれ読み込んでください。
+JavaScript、CSSをそれぞれ読み込んでください。CDNはrawgitによるものです。
+
+```html
+<script src="//cdn.rawgit.com/NCMBMania/fileuploader/master/ncmb_fileuploader.js"></script>
+<link rel="stylesheet" href="//cdn.rawgit.com/NCMBMania/fileuploader/master/ncmb_fileuploader.css">
+```
 
 ## 使い方
 
@@ -29,11 +34,22 @@ $(() => {
 });
 ```
 
+HTMLはドラッグ&ドロップを受け付ける枠を作ります。
+
+```html
+<div id="drag-drop-area">
+  <p class="drag-drop-info">ここにファイルをドロップ</p>
+</div>
+```
+
 ## 依存ライブラリ
 
 - jQuery
 
+## デモ
+
+[JSFiddle](https://jsfiddle.net/1Lwpf0jt/)
+
 ## License
 
 MIT License
-
